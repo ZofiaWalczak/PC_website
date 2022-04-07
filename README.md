@@ -1,2 +1,2 @@
 # PC_website
-Poznań Capricorns - quidditch team website ]
+Poznań Capricorns - quidditch team website 
