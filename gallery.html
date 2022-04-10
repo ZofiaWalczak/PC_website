@@ -1,11 +1,59 @@
 <!DOCTYPE html>
+<html lang = "pl">
 <head>
-
+	<meta charset="utf-8" />
+	<title>Galeria</title>
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/main_style.css" title="Arkusz stylów CSS">
 </head>
 
 <body>
-<header>
+<header>  
+<div id="top">  
+	<nav id="topmenu">  
+		<ul>  
+		<li><a href="main.html"><img src="img/logo.png" id="logo"></a></li> 
+		<li><a href="about_quidditch.html">O quidditchu</a></li>  
+		<li><a href="form.html">Zapisy</a></li>  
+		<li><a href="gallery.html">Galeria</a></li>
+		</ul>    
+	</nav>  
+</div>  
+</header> 
+<h1>Galeria zdjęć</h1>
+<div class="sp-slideshow">
+			
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="img/trening_otwarty.jpg" alt="image01" /></li>
+						<li><img src="img/summer2019.jpg" alt="image02" /></li>
+						<li><img src="img/urodziny_druzyny.png" alt="image03" /></li>
+						<li><img src="img/plq.jpg" alt="image04" /></li>
+					</ul>
+				</div><!-- sp-content -->
+				
+			</div><!-- sp-slideshow -->
 
-</header>
 
 </body>
+</html>

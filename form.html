@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<title> Zapisz się do drużyny </title>
+	<title> Zapisz się do drużyny </title>
+	<link rel="icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/main_style.css" title="Arkusz stylów CSS">
 </head>
 
 <body>
-<p> Aby zapisać się do drużyny, wypełnij formularz: </p>
-<form>
-	<label for="imie"> Imię: </label><br>
-	<input name="imie" type="text" id="imie" autofocus><br>
-	<label for="nazwisko"> Nazwisko: </label><br>
-	<input name="imie" type="text" id="nazwisko"><br>
-	<label for="mail"> E-mail: </label><br>
-	<input name="mail" type="email"><br>
-	<label for="dataur"> Data urodzenia: </label><br>
-	<input name="data urodzenia" type="date" id="dataur"><br>
-	Płeć:<br>
-	<input type="radio" id="man" name="gender" value="Man">
-	<label for="man"> Mężczyzna </label><br>
-	<input type="radio" id="woman" name="gender" value="Woman">
-	<label for="woman"> Kobieta </label><br>
-	<input type="radio" id="nonbinary" name="gender" value="Non-binary">
-	<label for="nonbinary"> Non-binary </label><br>
-	<input type="submit" value="Zatwierdź">
-</form>
+	<header>  
+		<div id="top">  
+			<nav id="topmenu">  
+				<ul>  
+				<li><a href="main.html"><img src="img/logo.png" id="logo"></a></li> 
+				<li><a href="about_quidditch.html">O quidditchu</a></li>  
+				<li><a href="form.html">Zapisy</a></li>  
+				<li><a href="gallery.html">Galeria</a></li>
+				</ul>    
+			</nav>  
+		</div>  
+	</header> 
+	
+	<section>
+		<div id="formularz" class="animate form">
+			<form autocomplete="on">
+				<h1>Formularz zapisu do drużyny</h1>
+				<p>
+					<label for="imie" class="uname"> Imię: </label><br>
+					<input name="imie" type="text" id="imie" autofocus placeholder="Imię">
+				</p>
+				<p>
+					<label for="nazwisko"> Nazwisko: </label><br>
+					<input name="imie" type="text" id="nazwisko" placeholder="Nazwisko">
+				</p>
+				<p>
+					<label for="mail"> E-mail: </label><br>
+					<input name="mail" type="email" id="mail" placeholder="mymail@mail.com">
+				</p>
+				<p>
+					<label for="dataur"> Data urodzenia: </label><br>
+					<input name="data urodzenia" type="date" id="dataur">
+				</p>
+				<p>
+					<h3>Płeć:</h3>
+					<input type="radio" id="man" name="gender" value="Man">
+					<label for="man"> Mężczyzna </label><br>
+					
+					<input type="radio" id="woman" name="gender" value="Woman">
+					<label for="woman"> Kobieta </label><br>
+					
+					<input type="radio" id="nonbinary" name="gender" value="Non-binary">
+					<label for="nonbinary"> Non-binary </label><br>
+				</p>
+				<p>
+					<input type="submit" value="Zatwierdź">
+				</p>
+			</form>
+		</div>
+	</section>
+
 </body>
+</html>
